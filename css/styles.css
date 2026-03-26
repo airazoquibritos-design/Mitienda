@@ -314,3 +314,12 @@ button:hover {
     flex-direction: column;
   }
 }
+
+
+a {
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: red;
+}
