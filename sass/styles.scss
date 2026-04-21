@@ -1,2 +1,6 @@
-@import "partials/variables";
-@import "partials/layout";
+@use "partials/variables";
+@use "partials/layout";
+@use "partials/mixins";
+.nav {
+  @include mixins.flex-center(center, center);
+}
